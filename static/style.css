@@ -16,7 +16,7 @@ header h1{
 
 form{
     margin: 5px 0px;
-    background-color: rgb(184, 167, 167);
+    background-color: rgb(255, 88, 88);
     padding: 30px 50px;
     height: 30vh;
     width: 100vw;
@@ -65,12 +65,16 @@ form .field{
     border-radius: 10px;
     color: rgb(180, 66, 66);
     transition: 0.2s ease-in;
+    font-size: 18px;
+    font-weight: bold;
     margin: 0 auto;
 }
 #cal-bmi-btn:hover{
     background-color: rgb(180, 66, 69);
-    color: rgb(102, 102, 98);
+    color: rgb(255, 255, 255);
     box-shadow: 2px 2px 10px black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
     transform: scale(1.1);
 }
 footer{
