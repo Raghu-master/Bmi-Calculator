@@ -31,19 +31,21 @@ Users can enter their weight and height to instantly calculate BMI and see the h
 2. Move into project folder:
    ```bash
    cd Bmi_Calculator
+   python -m venv env
    ```
 
 3. Install dependencies:
    ```bash
+   .\env\Scripts\activate
    pip install flask
    ```
 
-4. Run the app:
+5. Run the app:
    ```bash
    python app.py
    ```
 
-5. Open browser and visit:
+6. Open browser and visit:
    ```
    http://127.0.0.1:5000
    ```
