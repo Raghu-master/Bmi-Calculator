@@ -63,13 +63,13 @@ form .field{
 #cal-bmi-btn{
     padding: 10px 2px;
     border-radius: 10px;
-    color: rgb(0, 0, 0);
+    color: rgb(180, 66, 66);
     transition: 0.2s ease-in;
     margin: 0 auto;
 }
 #cal-bmi-btn:hover{
     background-color: black;
-    color: yellow;
+    color: rgb(130, 130, 123);
     box-shadow: 2px 2px 10px black;
     transform: scale(1.1);
 }
