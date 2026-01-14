@@ -30,7 +30,7 @@ Users can enter their weight and height to instantly calculate BMI and see the h
 
 2. Move into project folder:
    ```bash
-   cd Bmi_Calculator
+   cd Bmi-Calculator
    python -m venv env
    ```
 
