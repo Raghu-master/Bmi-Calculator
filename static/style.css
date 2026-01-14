@@ -1,0 +1,81 @@
+header{
+    display: block;
+    width: 100vw;
+    height:12vh;
+    text-align: center;
+    background-color: grey;
+    color: white;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+header h1{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: bisque;
+}
+
+form{
+    margin: 5px 0px;
+    background-color: rgb(184, 167, 167);
+    padding: 30px 50px;
+    height: 30vh;
+    width: 100vw;
+}
+form label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+form input{
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 160px;
+    transition: width 0.5s ease-in, border 0.5s ease, border-radius 0.5s ease;
+}
+
+form input:hover{
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 5px;  /* auto ❌ → px ✔️ */
+}
+
+
+
+.result-white {
+    color: white;
+}
+
+form .field{
+    padding: 15px 0;
+}
+.result-green {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    margin: 0 auto;
+    color: green;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 20px;
+    flex-direction: row;
+    box-shadow: 5px 5px 5px green;
+}
+
+#cal-bmi-btn{
+    padding: 10px 2px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    transition: 0.2s ease-in;
+    margin: 0 auto;
+}
+#cal-bmi-btn:hover{
+    background-color: black;
+    color: yellow;
+    box-shadow: 2px 2px 10px black;
+    transform: scale(1.1);
+}
+footer{
+    background-color: gray;
+    padding: 30px 0;
+    text-align: center;
+    color: yellow;
+}

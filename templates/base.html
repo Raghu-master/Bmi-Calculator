@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title> {% block title %} BmI {% endblock title %}   </title>
+</head>
+<body>
+    <header>
+        <h1>Bmi Calculator</h1>
+    </header>
+
+    <main>
+    {% block content %} {% endblock %}
+    </main>
+   <footer>
+    <div class="{% block result_class %}result-white{% endblock %}">
+        <h2>
+            {% block Result %}
+                Know Your BMI Accurately
+            {% endblock Result %}
+        </h2>
+    </div>
+</footer>
+
+</body>
+</html>

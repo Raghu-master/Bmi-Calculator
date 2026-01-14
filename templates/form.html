@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}
+BMI Calculator
+{% endblock title %}
+
+{% block content %}
+<form method="POST">
+     <div class="field">
+        <label for="weight">Weight (kg)</label>
+        <input type="number" id="weight" name="weight" step="0.1" required>
+    </div>
+
+    <div class="field">
+        <label for="feet">Height (Feet)</label>
+        <input type="number" id="feet" name="feet" required>
+    </div>
+
+    <div class="field">
+        <label for="inch">Height (Inches)</label>
+        <input type="number" id="inch" name="inches" min="0" max="11" required>
+    </div>
+    <div class="field" >
+        <input type="submit" id="cal-bmi-btn" value="Calculate BMI">
+    </div>
+</form>
+{% endblock content %}
+
+{% block result_class %}
+    {% if result %}result-green{% else %}result-white{% endif %}
+{% endblock result_class %}
+
+{% block Result %}
+    {% if result %}
+        Your BMI is {{ result }} 
+        {{ catagory }}
+    {% else %}
+        Know Your BMI Accurately
+    {% endif %}
+{% endblock Result %}
