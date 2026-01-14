@@ -16,7 +16,10 @@ header h1{
 
 form{
     margin: 5px 0px;
-    background-color: rgb(255, 88, 88);
+    background-color: rgb(104, 149, 239);
+    color: antiquewhite;
+    font-size: 16px;
+    font-weight: bold;
     padding: 30px 50px;
     height: 30vh;
     width: 100vw;
@@ -35,9 +38,10 @@ form input{
 form input:hover{
     padding: 8px;
     border: 2px solid black;
+    border: 2px solid rgba(128, 128, 128, 0.336);
     border-radius: 5px;  /* auto ❌ → px ✔️ */
+    border-bottom: 5px solid black ;
 }
-
 
 
 .result-white {
