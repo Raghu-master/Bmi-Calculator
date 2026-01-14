@@ -68,8 +68,8 @@ form .field{
     margin: 0 auto;
 }
 #cal-bmi-btn:hover{
-    background-color: black;
-    color: rgb(130, 130, 123);
+    background-color: rgb(180, 66, 69);
+    color: rgb(102, 102, 98);
     box-shadow: 2px 2px 10px black;
     transform: scale(1.1);
 }
