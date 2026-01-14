@@ -79,3 +79,12 @@ footer{
     text-align: center;
     color: yellow;
 }
+
+.creator {
+    margin-top: 30px;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.8;
+}
