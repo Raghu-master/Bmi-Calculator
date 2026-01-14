@@ -1,14 +1,14 @@
 # 🧮 BMI Calculator (Flask)
 
 A simple web-based **BMI (Body Mass Index) Calculator** built using **Flask**.  
-Users can enter their weight and height to instantly calculate BMI and see the health category.
+Users can enter their weight and height to calculate BMI and instantly see the health category.
 
 ---
 
 ## 🚀 Features
-- Calculate BMI using **weight + height (feet & inches)**
-- Shows BMI value with health category
-- Clean UI using HTML & CSS
+- Calculate BMI using **weight (kg)** and **height (feet & inches)**
+- Displays BMI value with health category
+- Clean and simple user interface
 - Lightweight Flask backend
 - Beginner-friendly project
 
@@ -17,41 +17,44 @@ Users can enter their weight and height to instantly calculate BMI and see the h
 ## 🛠 Tech Stack
 - **Backend:** Python, Flask  
 - **Frontend:** HTML, CSS (Jinja Templates)  
-- **Others:** Git, GitHub  
+- **Tools:** Git, GitHub  
 
 ---
 
 ## ▶️ How to Run the Project
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Raghu-master/Bmi-Calculator.git
-   ```
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/Raghu-master/Bmi-Calculator.git
 
-2. Move into project folder:
-   ```bash
-   cd Bmi_Calculator
-   ```
 
-3. Install dependencies:
-   ```bash
-   pip install flask
-   ```
+2️⃣ Move into project folder
+cd Bmi_Calculator
 
-4. Run the app:
-   ```bash
-   python app.py
-   ```
+3️⃣ Create a virtual environment
+python -m venv venv
 
-5. Open browser and visit:
-   ```
-   http://127.0.0.1:5000
-   ```
+4️⃣ Activate the virtual environment
 
----
+Windows (PowerShell / CMD):
 
-## 📂 Project Structure
-```
+venv\Scripts\activate
+
+
+macOS / Linux:
+
+source venv/bin/activate
+
+5️⃣ Install Flask
+pip install flask
+
+6️⃣ Run the application
+python app.py
+
+7️⃣ Open browser and visit
+http://127.0.0.1:5000
+
+📂 Project Structure
 BMI_CALCULATOR/
 │── env/
 │── static/
@@ -63,15 +66,25 @@ BMI_CALCULATOR/
 │   └── form.html
 │── .gitignore
 │── app.py
-```
+
+ℹ️ Notes
+
+BMI categories include Underweight, Normal, Overweight, and Obese
+
+Designed to learn Flask routing, forms, and template rendering
+
+Suitable for beginners and portfolio projects
+
+👨‍💻 Author
+
+Raghu
+
 
 ---
 
-## ℹ️ Notes
-- BMI categories include Underweight, Normal, Overweight, and Obese classes
-- Designed for learning Flask basics and form handling
+✅ Bas itna hi.  
+Isko **README.md** mein paste karo → commit → push.
 
----
-
-### 👨‍💻 Author
-**Raghu**
+Agar chahe toh next:
+- isko **1-page portfolio description** bana dein  
+- ya **deployment (Render / Railway)** ke steps add kar dein 👊
